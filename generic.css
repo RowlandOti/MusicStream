@@ -1,6 +1,6 @@
 /* For generic page styles. Not for sliders. */
 
-body {background: url(/images/stats/border.png);font:normal 0.9em Tahoma; margin:0; padding:0; padding-bottom:60px;}
+body {background: url(/images/stats/border.jpg);font:normal 0.9em Tahoma; margin:0; padding:0; padding-bottom:60px;}
 h2 {display:inline;}
 .div1, .div2 {width:700px;margin:0 auto;}
 .div1 {margin-top:30px;margin-bottom:60px;text-align:center;line-height:20px;}
