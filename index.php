@@ -68,7 +68,7 @@
 
  <center>
 
-<img src="images/stats/Banner.png" style="padding-left:50px;padding-bottom:10px" />
+<img src="images/banner.png" style="padding-left:50px;padding-bottom:30px" />
 
     <div id="sliderFrame">
 
