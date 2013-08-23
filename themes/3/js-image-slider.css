@@ -8,7 +8,7 @@
         
 
 #slider {
-    width:450px;height:	235px;/* Make it the same size as your images */
+    width:400px;height:	500px;/* Make it the same size as your images */
 	background:transparent url(loading.gif) no-repeat 50% 50%;
 	position:relative;
 	padding-left:100px;}
