@@ -477,14 +477,14 @@
 			<img src="images/stats/YayeAPP.jpg"/>
 
             <img src="images/stats/MuseveniAPP.jpg" />
-<img src="images/stats/SylvesterAPP.jpg"/>
+            <img src="images/stats/SylvesterAPP.jpg"/>
                 <img src="images/stats/KibakiAPP.jpg"/>
 				
 				<img src="images/stats/JulietAPP.jpg"/>
 				
 				<img src="images/stats/NdaluAPP.jpg"/>
 
-            <img src="images/stats/Rowland1APP.jpg"/>
+            <img src="images/stats/RowlandAPP.jpg"/>
 
         </div>
 
