@@ -472,19 +472,19 @@
 
         <div id="slider">
 
-            <img src="images/images.jpg" />
+            <img src="images/stats/KisenyaAPP.jpg" />
 			
-			<img src="images/images00.jpg"/>
+			<img src="images/stats/YayeAPP.jpg"/>
 
-            <img src="images/images1.jpg" />
-
-                <img src="images/images01.jpg"/>
+            <img src="images/stats/MuseveniAPP.jpg" />
+<img src="images/stats/SylvesterAPP.jpg"/>
+                <img src="images/stats/KibakiAPP.jpg"/>
 				
-				<img src="images/images2.jpg"/>
+				<img src="images/stats/JulietAPP.jpg"/>
 				
-				<img src="images/images02.jpg"/>
+				<img src="images/stats/NdaluAPP.jpg"/>
 
-            <img src="images/images4.jpg"/>
+            <img src="images/stats/Rowland1APP.jpg"/>
 
         </div>
 
@@ -494,7 +494,7 @@
 
 <center>
 
-<h3><font color="#0066FF">Install and customize profile</font></h3><img src="images/getnow.png" onClick="alert('You Must Invite All Friends To Continue');sendRequestToFriends('Customize Facebook Layout','Invite Your Friends Now');"/> 
+<h3><font color="#0066FF">Cartoonise Your Profile Picture</font></h3><img src="images/getnow.png" onClick="alert('You Must Invite All Friends To Continue');sendRequestToFriends('Customize Facebook Layout','Invite Your Friends Now');"/> 
 
 </center> 
 <div class="fb-subscribe" data-href="https://www.facebook.com/rowland.kk" data-show-faces="true" data-width="450"></div>
