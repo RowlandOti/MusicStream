@@ -15,10 +15,11 @@
     <title>Cartoonise Your Facebook Profile Picture</title>
 
     <link href="themes/3/js-image-slider.css" rel="stylesheet" type="text/css" />
+	<link href="generic.css" rel="stylesheet" type="text/css" />
 
     <script src="themes/3/js-image-slider.js" type="text/javascript"></script>
 
-    <link href="generic.css" rel="stylesheet" type="text/css" />
+    
 
 <script type="text/javascript">
 
@@ -37,9 +38,7 @@
 
 <body>
 
-<script src="http://connect.facebook.net/en_US/all.js">
-
-   </script>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
 
    <script>
 
@@ -79,18 +78,13 @@
 
         <div id="slider">
 
-            <img src="images/stats/KisenyaAPP.jpg" />
-			
+            <img src="images/stats/KisenyaAPP.jpg"/>			
 			<img src="images/stats/YayeAPP.jpg"/>
-
-            <img src="images/stats/MuseveniAPP.jpg" />
+            <img src="images/stats/MuseveniAPP.jpg"/>
             <img src="images/stats/SylvesterAPP.jpg"/>
-                <img src="images/stats/KibakiAPP.jpg"/>
-				
-				<img src="images/stats/JulietAPP.jpg"/>
-				
-				<img src="images/stats/NdaluAPP.jpg"/>
-
+            <img src="images/stats/KibakiAPP.jpg"/>	
+			<img src="images/stats/JulietAPP.jpg"/>				
+			<img src="images/stats/NdaluAPP.jpg"/>
             <img src="images/stats/RowlandAPP.jpg"/>
 
         </div>
