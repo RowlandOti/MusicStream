@@ -1,7 +1,4 @@
 
-
-
-
  window.fbAsyncInit = function() { 
 
  var curLoc = window.location; 

@@ -1,5 +1,5 @@
  <?php 
- 
+ require_once('dbinfo.php');
  //This is the directory where images will be saved 
  $target = "images/"; 
  $target = $target . basename( $_FILES['photo']['name']); 
@@ -11,8 +11,8 @@
  $pic=($_FILES['photo']['name']); 
  
  // Connects to your Database 
- mysql_connect("your.hostaddress.com", "username", "password") or die(mysql_error()) ; 
- mysql_select_db("Database_Name") or die(mysql_error()) ; 
+ mysql_connect("$host", "$username", "$pass") or die(mysql_error()) ; 
+ mysql_select_db("$dbName") or die(mysql_error()) ; 
  
  //Writes the information to the database 
  mysql_query("INSERT INTO `employees` VALUES ('$name', '$email', '$phone', '$pic')") ; 

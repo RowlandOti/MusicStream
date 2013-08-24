@@ -10,13 +10,11 @@
 <script src="//ads.lfstmedia.com/getad?site=143042" type="text/javascript"></script>
 <script type="text/javascript" src="http://fileice.net/gateway/mygate.php?id=4365546a48424b486868637a586462334e4150634b673d3d"></script>
 <link href="main.css" rel="stylesheet" type="text/css" />
-
+<link href="generic.css" rel="stylesheet" type="text/css" />
 
     <title>Cartoonise Your Facebook Profile Picture</title>
 
     <link href="themes/3/js-image-slider.css" rel="stylesheet" type="text/css" />
-	<link href="generic.css" rel="stylesheet" type="text/css" />
-
     <script src="themes/3/js-image-slider.js" type="text/javascript"></script>
 
     
