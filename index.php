@@ -1,4 +1,9 @@
+<?php
 
+
+  require_once('products.php');
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
