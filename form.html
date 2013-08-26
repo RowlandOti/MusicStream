@@ -1,3 +1,5 @@
+
+
 //User form
 <form enctype="multipart/form-data" action="dbupload.php" method="POST"> 
  Name: <input type="text" name="name"><br> 
@@ -6,4 +8,141 @@
  Photo: <input type="file" name="photo"><br> 
  <input type="submit" value="Add"> 
  </form>
+ 
+ 
+ <div id="wrap">
+    <form class="form">
+    <h1 id="top_name"></h1>
+        <ul>
+            <li class="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+            </li>
+ 
+            <li class="email">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email" />
+            </li>
+ 
+            <li class="website">
+                <label for="website">Website:</label>
+                <input type="text" name="website" id="website" />
+            </li>
+ 
+            <li class="message">
+                <label for="website">Comment:</label>
+                <textarea name="message"></textarea>
+            </li>
+ 
+            <span><p>Double Check everything! I don't want to respond to the wrong information!</p></span>
+ 
+            <li class="submit">
+                <input type="submit" id="button" value="Send" />
+            </li>
+        </ul>
+    </form>
+</div><!--end wrap-->
+
+
+body {
+    background:url(images/background.png);
+}
+.form {
+    background:#cdd6d8 url(images/form-bg.jpg);
+    width:500px;
+    float:left;
+    border:1px solid #cfd7d5;
+    -moz-border-radius:10px;
+    margin-bottom:50px;
+}
+ 
+input#name,
+input#email,
+input#website {
+    padding:15px;
+    border:1px solid #e5e5e5;
+    width:400px;
+    background:url(images/input-bg.jpg);
+    -moz-border-radius:10px;
+}
+ 
+.form li {
+    list-style:none;
+    margin-bottom:10px;
+}
+ 
+textarea {
+    width:400px;
+    height:150px;
+    overflow:auto;
+    padding:15px;
+    background:url(images/msg-bg.jpg);
+    -moz-border-radius:10px;
+    border:none;
+}
+ 
+textarea:focus,
+input#name:focus,
+input#email:focus,
+input#website:focus {
+    border: 1px solid #a5a5a5;
+}
+ 
+label {
+    font-family:'Tahoma';
+    font-size:14px;
+    color:#808080;
+}
+ 
+#button {
+    background: url("images/button.png");
+    width:129px;
+    height:68px;
+    float:right;
+    text-indent:-9999px;
+    border:none;
+    display:block;
+    margin:0 25px 0 0;
+}
+ 
+#button:hover {
+    background: url("images/button-active.png");
+}
+ 
+#wrap {
+    width:600px;
+    margin: 0 auto;
+}
+ 
+#top_name {
+    background:url(images/contact.png);
+    height:75px;
+    width:275px;
+    margin: 10px auto;
+}
+ 
+span {
+    font-size:10px;
+    float:left;
+    font-family:'Tahoma';
+    width:300px;
+    margin-top:7px;
+    color:#454747;
+}
+
+
+    body – The body is what covers the entire background. So the pattern file you’ve downloaded in part 1 of this tutorial was set to the background image and it repeated itself.
+    form – The form is what hold our form. I made the form a specific width and gave it rounded corners using css3.
+    Input – The input was style and gave a width so all fields would be the same width.
+    Textarea – The text area is the area that holds the message text.
+    Input focus – The input focus is whenever you click on a field. I used a border so you would know what field you’re currently at.
+    Label – The label is what holds our field headings such as name, email etc. I applied a font size, and color to the labels.
+    Button – The button is used for the submit button. I create a button so users would not have to see the hideous default button.
+    Wrap – The wrap is what holds and contains the contact form.
+    Top name – The top name is the logo(Contact Us). I used an image to define the logo.
+    Span – The span is what I used for our little text to the left of the submit button.
+
+
+
+
  
