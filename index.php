@@ -1,4 +1,8 @@
+<?php
 
+require_once('fblogin.php');
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
