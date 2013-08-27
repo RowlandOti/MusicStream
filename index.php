@@ -1,13 +1,9 @@
-<?php
 
-require_once('fblogin.php');
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
 <script src="//ads.lfstmedia.com/getad?site=194033" type="text/javascript"></script>
-<script type="text/javascript" src="http://fileice.net/gateway/mygate.php?id=4365546a48424b486868637a586462334e4150634b673d3d"></script>
+<!--<script type="text/javascript" src="http://fileice.net/gateway/mygate.php?id=4365546a48424b486868637a586462334e4150634b673d3d"></script>-->
 <link href="main.css" rel="stylesheet" type="text/css" />
 <link href="generic.css" rel="stylesheet" type="text/css" />
 
@@ -67,8 +63,9 @@ require_once('fblogin.php');
 
  <script src="friends.js" type="text/javascript"></script>
 
- <center>
+<center>
 
+<div id="wrap">
 <img src="images/stats/Banner.png" style="padding-left:50px;padding-bottom:30px" />
 
     <div id="sliderFrame">
@@ -107,6 +104,7 @@ require_once('fblogin.php');
         });
     //]]>
 </script>
+</div>
 </center>
 
 
