@@ -23,7 +23,7 @@ ul.tabs li a
     padding: 6px 14px;
     border: 1px solid #B7B7B7;
     color: #000;
-    background: #F7F7F7 url(tabbg2.gif) repeat-x 0 0;
+    background: #d8dfea /*url(tabbg2.gif)*/ repeat-x 0 0;
     border-radius: 3px 3px 0 0;
     outline:none;
 }
@@ -35,7 +35,7 @@ ul.tabs li a:visited
         
 ul.tabs li a:hover
 {
-    background:White url(tabbg.gif) repeat-x 0 0;
+    background:#3b5998 /*url(tabbg.gif)*/ repeat-x 0 0;
 }
         
 ul.tabs li.selected a, ul.tabs li.selected a:hover
@@ -43,7 +43,7 @@ ul.tabs li.selected a, ul.tabs li.selected a:hover
     position: relative;
     top: 0px;
     font-weight:bold;
-    background: white url(tabbg.gif) 0 0 repeat-x;
+    background: #3b5998 /*url(tabbg.gif)*/ 0 0 repeat-x;
     border-bottom-color: white;
 }
         
