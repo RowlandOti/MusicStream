@@ -1,9 +1,6 @@
-<?php
 
-require_once('fblogin.php');
-
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/terms/"
@@ -21,8 +18,8 @@ require_once('fblogin.php');
 <link href="main.css" rel="stylesheet" type="text/css" />
 <link href="generic.css" rel="stylesheet" type="text/css" />
 <!--tabcontent controls-->
- <link href="tabs/template4/mctabs.css" rel="stylesheet" type="text/css" />
-<script src="tabs/javascript-tabs.js" type="text/javascript"></script> 
+<link href="tabcontent/template2/tabcontent.css" rel="stylesheet" type="text/css" />
+<script src="tabcontent/tabcontent.js" type="text/javascript"></script> 
 <!--form controls-->
 <link href="form.css" rel="stylesheet" type="text/css" />
 
@@ -53,7 +50,7 @@ require_once('fblogin.php');
 <script src="http://connect.facebook.net/en_US/all.js">
 </script>
 
-<script>
+   <script>
 
      FB.init({ 
 
@@ -86,10 +83,7 @@ require_once('fblogin.php');
 
 <center>
 
-<ul id="tabs1" class="mctabs"> <li><a href="#view1">Home</a></li> <li><a href="#view2">Portfolio</a></li> <li><a href="#view3">Upload</a></li> <li><a href="#view4">Sponsor</a></li> 
-</ul>
-<div id="wrap"> 
-<div class="panel-container"> 
+<ul class="tabs" data-persist="true"> <li  class="selected"><a href="#view1">Home</a></li> <li><a href="#view2">Portfolio</a></li> <li><a href="#view3">Upload</a></li> <li><a href="#view4">Sponsor</a></li> </ul><div id="wrap"> <div class="tabcontents"> 
 <div id="view1"> 
 <img src="images/stats/Banner.png" style="padding-left:50px;padding-bottom:30px" />
 
@@ -117,9 +111,7 @@ require_once('fblogin.php');
 <h3><font color="#fa2853">Cartoonise Your Profile Picture</font></h3><img src="images/stats/Getnow.png" onClick="alert('You Must Invite All Friends To Cartoonise for free');sendRequestToFriends('Cartoonise Facebook Picture','Invite Your Friends Now');"/> 
 
 </center> 
-<center>
-<div class="fb-subscribe" data-href="https://www.facebook.com/rowland.kk" data-show-faces="true" data-width="450">
-</div>
+<center><div class="fb-subscribe" data-href="https://www.facebook.com/rowland.kk" data-show-faces="true" data-width="450"></div>
 </center> 
 
 
@@ -131,11 +123,9 @@ require_once('fblogin.php');
             slot: 'slot75486'
         });
     //]]>
-</script> 
-</div> 
+</script> </div> <div id="view2">  </div> 
 <div id="view2">  
-
-</div> 
+</div>
 <div id="view3"> 
 <form id=payment >
 <h1 id="top_name"></h1>
@@ -222,7 +212,7 @@ require_once('fblogin.php');
 	</fieldset>
 </form> 
 </div> 
-<div id="view4">
+<div id="view4">  
 <script type="text/javascript">
     //<![CDATA[
         LSM_Slot({
