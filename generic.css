@@ -5,16 +5,19 @@ body {
 background: #ffffff;
 color: #111111;
 font:normal 0.9em Tahoma; 
-margin:20px auto; 
+font-family: Georgia, "Times New Roman", Times, serif;
+margin:10px auto; 
 padding:0px; 
 padding-bottom:0px;
+width:760px
 }
 #wrap {
     background: url(images/stats/Border.jpg) no-repeat;
 	background-position:center;
     width:760px;
-	height:800px;
+	height:820px;
     margin: 0 auto;
+	
 	
 }
 h2 {
