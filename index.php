@@ -83,7 +83,7 @@
 
 <center>
 
-<ul class="tabs" data-persist="true"> <li  class="selected"><a href="#view1">Home</a></li> <li><a href="#view2">Portfolio</a></li> <li><a href="#view3">Upload</a></li> <li><a href="#view4">Sponsor</a></li> </ul><div id="wrap"> <div class="tabcontents"> 
+<ul class="tabs" data-persist="true"> <li  class="selected"><a href="#view1">Home</a></li> <li><a href="#view2">Portfolio</a></li> <li><a href="#view3">Upload</a></li> <li><a href="#view4">Sponsors</a></li> </ul><div id="wrap"> <div class="tabcontents"> 
 <div id="view1"> 
 <img src="images/stats/Banner.png" style="padding-left:50px;padding-bottom:30px" />
 
