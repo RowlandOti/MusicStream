@@ -86,7 +86,7 @@ require_once('fblogin.php');
 
 <center>
 
-<ul id="tabs1" class="mctabs"> <li><a href="#view1">Home</a></li> <li><a href="#view2">Portfolio</a></li> <li><a href="#view3">Upload</a></li> 
+<ul id="tabs1" class="mctabs"> <li><a href="#view1">Home</a></li> <li><a href="#view2">Portfolio</a></li> <li><a href="#view3">Upload</a></li> <li><a href="#view4">Sponsor</a></li> 
 </ul>
 <div id="wrap"> 
 <div class="panel-container"> 
@@ -134,15 +134,7 @@ require_once('fblogin.php');
 </script> 
 </div> 
 <div id="view2">  
-<script type="text/javascript">
-    //<![CDATA[
-        LSM_Slot({
-            adkey: '1f8',
-            ad_size: '720x300',
-            slot: 'slot75813'
-        });
-    //]]>
-</script>
+
 </div> 
 <div id="view3"> 
 <form id=payment >
@@ -230,6 +222,17 @@ require_once('fblogin.php');
 	</fieldset>
 </form> 
 </div> 
+<div id="view4">
+<script type="text/javascript">
+    //<![CDATA[
+        LSM_Slot({
+            adkey: '1f8',
+            ad_size: '720x300',
+            slot: 'slot75813'
+        });
+    //]]>
+</script>
+</div>
 </div>
 
 
