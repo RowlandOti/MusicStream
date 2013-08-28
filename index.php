@@ -134,7 +134,15 @@ require_once('fblogin.php');
 </script> 
 </div> 
 <div id="view2">  
-
+<script type="text/javascript">
+    //<![CDATA[
+        LSM_Slot({
+            adkey: '1f8',
+            ad_size: '720x300',
+            slot: 'slot75813'
+        });
+    //]]>
+</script>
 </div> 
 <div id="view3"> 
 <form id=payment >
