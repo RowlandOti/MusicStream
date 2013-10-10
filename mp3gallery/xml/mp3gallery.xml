@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mp3gallery>
+	
+	<albums startAlbumNo = "">
+		
+		<!-- if this album tag will not be here, the player will work as usual -->
+        <album id="1">
+			
+			<author><![CDATA[50 Cent]]></author>
+			
+			<image>content/images/albums/50 Cent.jpg</image>
+
+			<name alsoInList = "true"><![CDATA[<font color="#8E0020">50 Cent Mixed</font>]]></name>
+			<caption><![CDATA[ Curtis James Jackson III (born July 6, 1975), better known by his stage name 50 Cent, is an American rapper, entrepreneur, investor, and actor. He rose to fame with the release of his albums...  <font color="#8E0020"><a href="http://en.wikipedia.org/wiki/50_Cent">read more</a></font>]]></caption>
+			
+			<link>http://www.themesbell.com</link><target>_blank</target> <!-- to go to a specific page on clicking the image inside the mp3 player -->
+			
+			<buy price = "9.99" target = "">http://www.themesbell.com</buy><!-- if empty, the download button on the album image won't appear 
+																			price: if leave it empty or 0 the price won't appear, in this case you could use the button as a download button
+																			-->
+			
+			<tracks>
+				<item id="11">
+					<title><![CDATA[Major Distribution (Explicit)]]></title>
+					<artist><![CDATA[feat. Snoop Dog & Young Jeezy]]></artist> <!-- if you want this item to have a different artist(for example featuring artist write the text in this tag -->
+					<duration>04:23</duration> <!-- define this only if is the correct duration, otherwise it will make the song to jump incorrectly -->
+					
+					<buy price = "0.99" url = "http://www.flabell.com" target = "_blank">Buy</buy> <!-- if you want this item to have a different text then the general text, write the text in this tag 
+																									 if the url is empty then the button won't appear-->
+
+					<song>content/songs/50_Cent/Major Distribution (Explicit) - 50 Cent feat. Snoop Dog & Jeezy.mp3</song>
+                    
+                    <!-- if you want to use RTMP streaming use this "song" tag like below -->
+                    <!-- 
+                        <song streamer = "rtmp://domain.com/app/">mp3:streamPath</song> 
+                    -->
+				</item>
+				<item id="12">
+					<title><![CDATA[We Up (Explicit)]]></title>
+					<artist><![CDATA[feat. Kendrick Lamar]]></artist>
+					<duration>03:19</duration>
+					
+					<buy price = "0.99" url = "http://www.flabell.com" target = "">Buy</buy>
+					
+					<song>content/songs/50_Cent/We Up (Explicit) - 50 Cent  feat. Kendrick Lamar.mp3</song>
+                    <!-- if you want to use RTMP streaming use this "song" tag like below -->
+                    <!-- 
+                        <song streamer = "rtmp://domain.com/app/">mp3:streamPath</song> 
+                    -->
+				</item>
+				<item id="13">
+					<title><![CDATA[New Day]]></title>
+					<artist><![CDATA[feat. Alicia Keys, Dr. Dre]]></artist>
+                    <duration>04:23</duration>
+					<buy price = "0.99" url = "http://www.flabell.com" target = "">Buy</buy>
+					<song>content/songs/50_Cent/New Day - 50 Cent  feat. Alicia Keys, Dr. Dre.mp3</song>
+				</item>
+				<item id="14">
+					<title><![CDATA[Track title 4 ]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<price>12</price>
+					<duration>00:31</duration>
+					<buy url = "http://www.flabell.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="15">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="16">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>	
+				<item id="17">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="18">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="19">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="110">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>								
+			</tracks>
+		</album>
+		
+		<album id="2">
+			<image>content/images/albums/The_Script.jpg</image>
+			
+			<author><![CDATA[The_Script]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">The_Script Mixed</font>]]></name>
+			<caption><![CDATA[The Script are an Irish band from Dublin formed in 2001.[3] Based in London after signing to Sony Label Group imprint Phonogenic, the band released their eponymous debut album in August 2008, featuring the hit songs...  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/The_Script">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="21">
+					<title><![CDATA[Hall of Fame]]></title>
+					<artist><![CDATA[feat. William]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>03:53</duration>
+					<song>content/songs/The_Script/Hall of Fame - FT William.mp3</song>
+				</item>
+				<item id="22">
+					<title><![CDATA[Six Degrees Of Separation]]></title>
+					<artist><![CDATA[The Script]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>03:56</duration>
+					<song>content/songs/The_Script/Six Degrees Of Separation.mp3</song>
+				</item>
+				<item id="23">
+					<title><![CDATA[Mix Track 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="24">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="25">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="26">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>	
+				<item id="27">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="28">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="29">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="210">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>								
+			</tracks>
+		</album>
+		
+		<album id="3">
+			<image>content/images/albums/Timaya.jpg</image>
+			
+			<author><![CDATA[Timaya]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Timaya Mixed</font>]]></name>
+			<caption><![CDATA[Timaya is an award winning Nigerian musician popular for socially conscious music that constantly references the role of God in overcoming difficult circumstances....  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/Timaya">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="31">
+					<title><![CDATA[Plantain Boy]]></title>
+					<artist><![CDATA[Timaya]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>04:02</duration>
+					<song>content/songs/Timaya/Plantain Boy.mp3</song>
+				</item>
+				<item id="32">
+					<title><![CDATA[Bum Bum]]></title>
+					<artist><![CDATA[Timaya]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>03:07</duration>
+					<song>content/songs/Timaya/Bum Bum.mp3</song>
+				</item>
+				<item id="33">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="34">
+					<title><![CDATA[Mix Track 1]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="35">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="36">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>	
+				<item id="37">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="38">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="39">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="310">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>								
+			</tracks>
+		</album>
+		
+		<album id="4">
+			<image>content/images/albums/Fat Joe.jpg</image>
+			
+			<author><![CDATA[Fat Joe]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Album Title 4</font>]]></name>
+			<caption><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer...  <font color="#9AC836"><a href="http://www.flabell.com">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="41">
+					<title><![CDATA[Track title 1]]></title>
+					<artist><![CDATA[Artist name 1]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>00:31</duration>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="42">
+					<title><![CDATA[Track title 2]]></title>
+					<artist><![CDATA[Artist name 2]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>00:31</duration>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="43">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="44">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="45">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="46">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>	
+				<item id="47">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="48">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="49">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="410">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>								
+			</tracks>
+		</album>
+		
+		<album id="5">
+			<image>content/images/albums/Fergie.jpg</image>
+			
+			<author><![CDATA[Fergie]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Album Title 5</font>]]></name>
+			<caption><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer...  <font color="#9AC836"><a href="http://www.flabell.com">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="51">
+					<title><![CDATA[Track title 1]]></title>
+					<artist><![CDATA[Artist name 1]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>00:31</duration>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="52">
+					<title><![CDATA[Track title 2]]></title>
+					<artist><![CDATA[Artist name 2]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>00:31</duration>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="53">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="54">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="55">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="56">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>	
+				<item id="57">
+					<title><![CDATA[Track title 3]]></title>
+					<artist><![CDATA[Artist name 3]]></artist>
+                    <duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="58">
+					<title><![CDATA[Track title 4]]></title>
+					<artist><![CDATA[Artist name 4]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="59">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="510">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>								
+			</tracks>
+		</album>
+		
+		<album id="6">
+		
+			<image>content/images/albums/Juliani.jpg</image>
+			
+			<author><![CDATA[Juliani]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Pulpit kwa Street & Others</font>]]></name>
+			<caption><![CDATA[Juliani is a Kenyan gospel artist who is known for his prowess in hip-hop music. The artist hit the music scene big back in 2008 with the release of his album Mtaa Mentality, through ...  <font color="#9AC836"><a href="http://www.julianionline.com/">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="61">
+					<title><![CDATA[Exponential Potential]]></title>
+					<artist><![CDATA[Juliani]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>04:09</duration>
+					<song>content/songs/Juliani/Exponential Potential.mp3</song>
+				</item>
+				<item id="62">
+					<title><![CDATA[Bahasha Ya Ocampo]]></title>
+					<artist><![CDATA[feat. Jaya]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>04:40</duration>
+					<song>content/songs/Juliani/Bahasha Ya Ocampo - FT Jaya.mp3</song>
+				</item>
+				<item id="63">
+					<title><![CDATA[Friend Request]]></title>
+					<artist><![CDATA[Juliani]]></artist>
+                    <duration>05:29</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Juliani/Friend Request.mp3</song>
+				</item>
+				<item id="64">
+					<title><![CDATA[Kenya We Pray]]></title>
+					<artist><![CDATA[feat. Joey, JuaCali, Frasha,DNA, Angie, June]]></artist>
+					<duration>04:57</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Juliani/Kenya We Pray - FT  Joey, JuaCali, Frasha,DNA, Angie, June.mp3</song>
+				</item>
+				<item id="65">
+					<title><![CDATA[Track title 5]]></title>
+					<artist><![CDATA[Artist name 5]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="66">
+					<title><![CDATA[Track title 6]]></title>
+					<artist><![CDATA[Artist name 6]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>	
+				<item id="67">
+					<title><![CDATA[Track title 7]]></title>
+					<artist><![CDATA[Artist name 7]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="68">
+					<title><![CDATA[Track title 8]]></title>
+					<artist><![CDATA[Artist name 8]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="69">
+					<title><![CDATA[Track title 9]]></title>
+					<artist><![CDATA[Artist name 9]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>
+				<item id="610">
+					<title><![CDATA[Track title 10]]></title>
+					<artist><![CDATA[Artist name 10]]></artist>
+					<duration>00:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/song1.mp3</song>
+				</item>								
+			</tracks>
+		</album>
+		
+		<album id="7">
+
+			<image>content/images/albums/Kwaito.jpg</image>
+			
+			<author><![CDATA[Kwaito_Various_Artists]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Kwaito</font>]]></name>
+			<caption><![CDATA[ Kwaito is a music genre that emerged in Johannesburg, South Africa, during the 1990s. It is a variant of house music featuring the use of African sounds and samples. Typically at a slower tempo range than other styles of house music, Kwaito often contains catchy melodic ....  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/Kwaito">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="71">
+					<title><![CDATA[I Believe]]></title>
+					<artist><![CDATA[Oskido feat. Character & Professor]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>03:54</duration>
+					<song>content/songs/Kwaito_Various_Artists/I Believe - Oskido  FT Character & Professor.mp3</song>
+				</item>
+				<item id="72">
+					<title><![CDATA[Umlilo]]></title>
+					<artist><![CDATA[Big Nuz feat. DJ Tira]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>03:45</duration>
+					<song>content/songs/Kwaito_Various_Artists/Umlilo - Big Nuz FT DJ Tira.mp3</song>
+				</item>
+				<item id="73">
+					<title><![CDATA[Lento]]></title>
+					<artist><![CDATA[Professor feat. Speedy]]></artist>
+                    <duration>03:31</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/Lento - Professor  FT Speedy.mp3</song>
+				</item>
+				<item id="74">
+					<title><![CDATA[Lengoma]]></title>
+					<artist><![CDATA[DJ Sbu feat. Zahara]]></artist>
+					<duration>04:29</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/Lengoma - DJ Sbu FT Zahara.mp3</song>
+				</item>
+				<item id="75">
+					<title><![CDATA[IStokvela]]></title>
+					<artist><![CDATA[Vetkuk vs Mahoota]]></artist>
+					<duration>04:27</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/Vetkuk vs Mahoota  iStokvela.mp3</song>
+				</item>
+				<item id="76">
+					<title><![CDATA[Facebook]]></title>
+					<artist><![CDATA[DJ Cleo]]></artist>
+					<duration>04:23</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/FaceBook - Dj Cleo.mp3</song>
+				</item>	
+				<item id="77">
+					<title><![CDATA[Jezebel]]></title>
+					<artist><![CDATA[Professor feat. Oskido]]></artist>
+					<duration>03:47</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/Jezebel - Professor  FT Oskido.mp3</song>
+				</item>
+				<item id="78">
+					<title><![CDATA[Sodlimali senze kanje]]></title>
+					<artist><![CDATA[Msawawa feat. Dr popzine and Singil]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/Sodlimali senze kanje - Msawawa FT Dr popzine and Singil.mp3</song>
+				</item>
+				<item id="79">
+					<title><![CDATA[Abantu Bami]]></title>
+					<artist><![CDATA[Shota]]></artist>
+					<duration>03:45</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/Abantu Bami - Shota.mp3</song>
+				</item>
+				<item id="710">
+					<title><![CDATA[Mhlobo Wami]]></title>
+					<artist><![CDATA[Teargas]]></artist>
+					<duration>03:56</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Kwaito_Various_Artists/Mhlobo Wami - Teargas.mp3</song>
+				</item>								
+			</tracks>
+		</album>
+		
+        <album id="8">
+			<image>content/images/albums/Azonto.jpg</image>
+			
+			<author><![CDATA[Azonto_Various_Artists]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Azonto</font>]]></name>
+			<caption><![CDATA[Azonto is a dance and a music genre originating from Ghana.The dance involves a set of hand movements that either mimic everyday activities or ...  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/Azonto">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="81">
+					<title><![CDATA[Kukere]]></title>
+					<artist><![CDATA[Iyanya]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>03:44</duration>
+					<song>content/songs/Azonto_Various_Artists/Kukere - Iyanya.mp3</song>
+				</item>
+				<item id="82">
+					<title><![CDATA[The Thing]]></title>
+					<artist><![CDATA[Atumpan feat. Stone (Bradez)]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>04:58</duration>
+					<song>content/songs/Azonto_Various_Artists/The Thing - Atumpan FT Stone (Bradez).mp3</song>
+				</item>
+				<item id="83">
+					<title><![CDATA[Anything For You (Remix)]]></title>
+					<artist><![CDATA[Flexclusive feat. Itz Tiffany]]></artist>
+                    <duration>03:51</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Anything For You (Remix) - Flexclusive FT Itz Tiffany.mp3</song>
+				</item>
+				<item id="84">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[A'won Boyz]]></artist>
+					<duration>03:38</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - A'won Boyz.mp3</song>
+				</item>
+				<item id="85">
+					<title><![CDATA[Let Me Go]]></title>
+					<artist><![CDATA[Adina]]></artist>
+					<duration>03:40</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Let Me Go - Adina.mp3</song>
+				</item>
+				<item id="86">
+					<title><![CDATA[U Go Kill Me]]></title>
+					<artist><![CDATA[Sarkodie feat. E.L]]></artist>
+					<duration>03:20</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/U Go Kill Me - Sarkodie  FT E.L.mp3</song>
+				</item>	
+				<item id="87">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[Fuse ODG feat. Itz Tiffany & Donae'o]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - Fuse ODG FT  Itz Tiffany & Donae'o.mp3</song>
+				</item>
+				<item id="88">
+					<title><![CDATA[Bossu Kena]]></title>
+					<artist><![CDATA[5Five]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Bossu Kena - 5Five.mp3</song>
+				</item>
+				<item id="89">
+					<title><![CDATA[Akwee Wo! [Caught Up]]]></title>
+					<artist><![CDATA[Itz Tiffany]]></artist>
+					<duration>03:26</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Akwee Wo! [Caught Up] -  Itz Tiffany.mp3</song>
+				</item>
+				<item id="810">
+					<title><![CDATA[Antenna]]></title>
+					<artist><![CDATA[Fuse ODG feat. Wyclef Jean]]></artist>
+					<duration>04:09</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Antenna - Fuse ODG FT Wyclef Jean.mp3</song>
+				</item>								
+			</tracks>
+		</album>	
+		
+		<album id="9">
+			<image>content/images/albums/Liquideep.jpg</image>
+			
+			<author><![CDATA[Liquideep]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Liquideep Mixed</font>]]></name>
+			<caption><![CDATA[Liquideep are a soul, House duo formed in Johannesburg in 2007. The group was formed by Ziyon (vocalist/songwriter/producer) and Ryzor (DJ/producer). They have had eight number-one singles and four number-one albums,...  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/Liquideep">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="91">
+					<title><![CDATA[Fairytale]]></title>
+					<artist><![CDATA[Liquideep]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>03:42</duration>
+					<song>content/songs/Liquideep/Fairytale.mp3</song>
+				</item>
+				<item id="92">
+					<title><![CDATA[BBM]]></title>
+					<artist><![CDATA[Liquideep]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>04:03</duration>
+					<song>content/songs/Liquideep/BBM.mp3</song>
+				</item>
+				<item id="93">
+					<title><![CDATA[Still]]></title>
+					<artist><![CDATA[Liquideep]]></artist>
+                    <duration>03:51</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Liquideep/Still.mp3</song>
+				</item>
+				<item id="94">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[A'won Boyz]]></artist>
+					<duration>03:38</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - A'won Boyz.mp3</song>
+				</item>
+				<item id="95">
+					<title><![CDATA[Let Me Go]]></title>
+					<artist><![CDATA[Adina]]></artist>
+					<duration>03:40</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Let Me Go - Adina.mp3</song>
+				</item>
+				<item id="96">
+					<title><![CDATA[U Go Kill Me]]></title>
+					<artist><![CDATA[Sarkodie feat. E.L]]></artist>
+					<duration>03:20</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/U Go Kill Me - Sarkodie  FT E.L.mp3</song>
+				</item>	
+				<item id="97">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[Fuse ODG feat. Itz Tiffany & Donae'o]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - Fuse ODG FT  Itz Tiffany & Donae'o.mp3</song>
+				</item>
+				<item id="98">
+					<title><![CDATA[Bossu Kena]]></title>
+					<artist><![CDATA[5Five]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Bossu Kena - 5Five.mp3</song>
+				</item>
+				<item id="99">
+					<title><![CDATA[Akwee Wo! [Caught Up]]]></title>
+					<artist><![CDATA[Itz Tiffany]]></artist>
+					<duration>03:26</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Akwee Wo! [Caught Up] -  Itz Tiffany.mp3</song>
+				</item>
+				<item id="910">
+					<title><![CDATA[Antenna]]></title>
+					<artist><![CDATA[Fuse ODG feat. Wyclef Jean]]></artist>
+					<duration>04:09</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Antenna - Fuse ODG FT Wyclef Jean.mp3</song>
+				</item>								
+			</tracks>
+		</album>	
+	
+	    <album id="10">
+			<image>content/images/albums/P_Square.jpg</image>
+			
+			<author><![CDATA[P_Square]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">P_Square Mixed</font>]]></name>
+			<caption><![CDATA[P-Square are a Nigerian R&B duo composed of identical twin brothers Peter and Paul Okoye.[1] They produce and release their albums through Square Records. In December 2011, they were also signed to Akon's Konvict Muzik label...  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/P_Square">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="101">
+					<title><![CDATA[Chop My Money]]></title>
+					<artist><![CDATA[feat. Akon, May D]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>04:34</duration>
+					<song>content/songs/P_Square/Chop My Money Ft. Akon, May D.mp3</song>
+				</item>
+				<item id="102">
+					<title><![CDATA[E No Easy]]></title>
+					<artist><![CDATA[feat J.Martins]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>04:22</duration>
+					<song>content/songs/P_Square/E No Easy Ft. J.Martins.mp3</song>
+				</item>
+				<item id="103">
+					<title><![CDATA[Beautiful Onyinye]]></title>
+					<artist><![CDATA[feat. Rick Ross]]></artist>
+                    <duration>04:55</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/P_Square/Beautiful Onyinye ft. Rick Ross.mp3</song>
+				</item>
+				<item id="104">
+					<title><![CDATA[Alingo]]></title>
+					<artist><![CDATA[P_Square]]></artist>
+					<duration>04:33</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/P_Square/Alingo.mp3</song>
+				</item>
+				<item id="105">
+					<title><![CDATA[Let Me Go]]></title>
+					<artist><![CDATA[Adina]]></artist>
+					<duration>03:40</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Let Me Go - Adina.mp3</song>
+				</item>
+				<item id="106">
+					<title><![CDATA[U Go Kill Me]]></title>
+					<artist><![CDATA[Sarkodie feat. E.L]]></artist>
+					<duration>03:20</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/U Go Kill Me - Sarkodie  FT E.L.mp3</song>
+				</item>	
+				<item id="107">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[Fuse ODG feat. Itz Tiffany & Donae'o]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - Fuse ODG FT  Itz Tiffany & Donae'o.mp3</song>
+				</item>
+				<item id="108">
+					<title><![CDATA[Bossu Kena]]></title>
+					<artist><![CDATA[5Five]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Bossu Kena - 5Five.mp3</song>
+				</item>
+				<item id="109">
+					<title><![CDATA[Akwee Wo! [Caught Up]]]></title>
+					<artist><![CDATA[Itz Tiffany]]></artist>
+					<duration>03:26</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Akwee Wo! [Caught Up] -  Itz Tiffany.mp3</song>
+				</item>
+				<item id="1010">
+					<title><![CDATA[Antenna]]></title>
+					<artist><![CDATA[Fuse ODG feat. Wyclef Jean]]></artist>
+					<duration>04:09</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Antenna - Fuse ODG FT Wyclef Jean.mp3</song>
+				</item>								
+			</tracks>
+		</album>	
+	
+	    <album id="11">
+			<image>content/images/albums/J_Martins.jpg</image>
+			
+			<author><![CDATA[J_Martins]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">J_Martins Mixed</font>]]></name>
+			<caption><![CDATA[Multiple award winning Nigerian-Born song writer, singer, producer and United Nations Ambassador for Peace J. Martins Makes Urban High Life music of African origin, that is enjoyed all over the world....  <font color="#9AC836"><a href="https://www.facebook.com/jmartinsmusic/info">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="111">
+					<title><![CDATA[Jukpa Remix]]></title>
+					<artist><![CDATA[feat. Fally Ipupa]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>04:44</duration>
+					<song>content/songs/J_Martins/Jukpa Remix - Ft Fally Ipupa.mp3</song>
+				</item>
+				<item id="112">
+					<title><![CDATA[Oyoyo]]></title>
+					<artist><![CDATA[J.Martins]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>03:44</duration>
+					<song>content/songs/J_Martins/Oyoyo.mp3</song>
+				</item>
+				<item id="113">
+					<title><![CDATA[Good Tym]]></title>
+					<artist><![CDATA[feat. Cabo Snoop]]></artist>
+                    <duration>04:08</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/J_Martins/Good Tym - Ft Cabo Snoop.mp3</song>
+				</item>
+				<item id="114">
+					<title><![CDATA[Fine Fine Love]]></title>
+					<artist><![CDATA[J_Martins]]></artist>
+					<duration>03:30</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/J_Martins/Fine Fine Love.mp3</song>
+				</item>
+				<item id="115">
+					<title><![CDATA[Let Me Go]]></title>
+					<artist><![CDATA[Adina]]></artist>
+					<duration>03:40</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Let Me Go - Adina.mp3</song>
+				</item>
+				<item id="116">
+					<title><![CDATA[U Go Kill Me]]></title>
+					<artist><![CDATA[Sarkodie feat. E.L]]></artist>
+					<duration>03:20</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/U Go Kill Me - Sarkodie  FT E.L.mp3</song>
+				</item>	
+				<item id="117">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[Fuse ODG feat. Itz Tiffany & Donae'o]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - Fuse ODG FT  Itz Tiffany & Donae'o.mp3</song>
+				</item>
+				<item id="118">
+					<title><![CDATA[Bossu Kena]]></title>
+					<artist><![CDATA[5Five]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Bossu Kena - 5Five.mp3</song>
+				</item>
+				<item id="119">
+					<title><![CDATA[Akwee Wo! [Caught Up]]]></title>
+					<artist><![CDATA[Itz Tiffany]]></artist>
+					<duration>03:26</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Akwee Wo! [Caught Up] -  Itz Tiffany.mp3</song>
+				</item>
+				<item id="1110">
+					<title><![CDATA[Antenna]]></title>
+					<artist><![CDATA[Fuse ODG feat. Wyclef Jean]]></artist>
+					<duration>04:09</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Antenna - Fuse ODG FT Wyclef Jean.mp3</song>
+				</item>								
+			</tracks>
+		</album>	
+	
+	    <album id="12">
+			<image>content/images/albums/The_Black_Eyed_Peas.jpg</image>
+			
+			<author><![CDATA[The_Black_Eyed_Peas]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">Black_Eyed_Peas Mixed</font>]]></name>
+			<caption><![CDATA[Black Eyed Peas are an American hip hop group. The group mainly comprises rappers will.i.am, apl.de.ap, Taboo, and singer Fergie. Originally an alternative hip hop group, they have since added R&B, pop, and EDM/dance influences. Although the...  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/The_Black_Eyed_Peas">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="121">
+					<title><![CDATA[Where Is The Love]]></title>
+					<artist><![CDATA[The_Black_Eyed_Peas]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>04:12</duration>
+					<song>content/songs/The_Black_Eyed_Peas/Where Is The Love.mp3</song>
+				</item>
+				<item id="122">
+					<title><![CDATA[Just Can t Get Enough]]></title>
+					<artist><![CDATA[The_Black_Eyed_Peas]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>03:55</duration>
+					<song>content/songs/The_Black_Eyed_Peas/Just Can t Get Enough.mp3</song>
+				</item>
+				<item id="123">
+					<title><![CDATA[Meet Me Halfway]]></title>
+					<artist><![CDATA[The_Black_Eyed_Peas]]></artist>
+                    <duration>04:48</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/The_Black_Eyed_Peas/Meet Me Halfway.mp3</song>
+				</item>
+				<item id="124">
+					<title><![CDATA[This Is Love]]></title>
+					<artist><![CDATA[William feat. Eva Simons]]></artist>
+					<duration>04:56</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/The_Black_Eyed_Peas/This Is Love William FT Eva Simons.mp3</song>
+				</item>
+				<item id="125">
+					<title><![CDATA[Don't Stop The Party]]></title>
+					<artist><![CDATA[The_Black_Eyed_Peas]]></artist>
+					<duration>06:18</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/The_Black_Eyed_Peas/Don t Stop The Party.mp3</song>
+				</item>
+				<item id="126">
+					<title><![CDATA[Scream & Shout]]></title>
+					<artist><![CDATA[William feat. Britney Spears]]></artist>
+					<duration>04:50</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/The_Black_Eyed_Peas/Scream & Shout - William FT Britney Spears.mp3</song>
+				</item>	
+				<item id="127">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[Fuse ODG feat. Itz Tiffany & Donae'o]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - Fuse ODG FT  Itz Tiffany & Donae'o.mp3</song>
+				</item>
+				<item id="128">
+					<title><![CDATA[Bossu Kena]]></title>
+					<artist><![CDATA[5Five]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Bossu Kena - 5Five.mp3</song>
+				</item>
+				<item id="129">
+					<title><![CDATA[Akwee Wo! [Caught Up]]]></title>
+					<artist><![CDATA[Itz Tiffany]]></artist>
+					<duration>03:26</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Akwee Wo! [Caught Up] -  Itz Tiffany.mp3</song>
+				</item>
+				<item id="1210">
+					<title><![CDATA[Antenna]]></title>
+					<artist><![CDATA[Fuse ODG feat. Wyclef Jean]]></artist>
+					<duration>04:09</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Antenna - Fuse ODG FT Wyclef Jean.mp3</song>
+				</item>								
+			</tracks>
+		</album>	
+	    
+		<album id="13">
+			<image>content/images/albums/AfroBeats.jpg</image>
+			
+			<author><![CDATA[AfroBeats Hits]]></author>
+			<name alsoInList = "false"><![CDATA[<font color="#ff0000">African Hits</font>]]></name>
+			<caption><![CDATA[Afrobeat is a combination of traditional music, hiphop, jazz, highlife, funk, and chanted vocals,[1] fused with percussion and vocal styles, popularised in Africa...  <font color="#9AC836"><a href="http://en.wikipedia.org/wiki/Afrobeat">read more</a></font>]]></caption>
+			
+			<link></link><target>_blank</target>
+			<buy></buy>
+			
+			<tracks>
+				<item id="131">
+					<title><![CDATA[Dream Big]]></title>
+					<artist><![CDATA[Ice Queen feat. JK]]></artist>
+					<buy url = "http://www.paypal.com">Download</buy> <!-- if you want this item to have a different text write the text in the tag -->
+					<duration>03:41</duration>
+					<song>content/songs/AfroBeats_Hits/Dream Big - Ice Queen feat. JK.mp3</song>
+				</item>
+				<item id="132">
+					<title><![CDATA[Badder Dan Most (The Remix)]]></title>
+					<artist><![CDATA[Redsan feat. Demarco]]></artist>
+					<buy url = "http://www.paypal.com"></buy>
+					<duration>03:50</duration>
+					<song>content/songs/AfroBeats_Hits/Badder Dan Most (The Remix) - FT Demarco.mp3</song>
+				</item>
+				<item id="133">
+					<title><![CDATA[Meet Me Halfway]]></title>
+					<artist><![CDATA[The_Black_Eyed_Peas]]></artist>
+                    <duration>04:48</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/The_Black_Eyed_Peas/Meet Me Halfway.mp3</song>
+				</item>
+				<item id="134">
+					<title><![CDATA[This Is Love]]></title>
+					<artist><![CDATA[William feat. Eva Simons]]></artist>
+					<duration>04:56</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song >content/songs/The_Black_Eyed_Peas/This Is Love William FT Eva Simons.mp3</song>
+				</item>
+				<item id="135">
+					<title><![CDATA[Don't Stop The Party]]></title>
+					<artist><![CDATA[The_Black_Eyed_Peas]]></artist>
+					<duration>06:18</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/The_Black_Eyed_Peas/Don t Stop The Party.mp3</song>
+				</item>
+				<item id="136">
+					<title><![CDATA[Scream & Shout]]></title>
+					<artist><![CDATA[William feat. Britney Spears]]></artist>
+					<duration>04:50</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/The_Black_Eyed_Peas/Scream & Shout - William FT Britney Spears.mp3</song>
+				</item>	
+				<item id="137">
+					<title><![CDATA[Azonto]]></title>
+					<artist><![CDATA[Fuse ODG feat. Itz Tiffany & Donae'o]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Azonto - Fuse ODG FT  Itz Tiffany & Donae'o.mp3</song>
+				</item>
+				<item id="138">
+					<title><![CDATA[Bossu Kena]]></title>
+					<artist><![CDATA[5Five]]></artist>
+					<duration>04:00</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Bossu Kena - 5Five.mp3</song>
+				</item>
+				<item id="139">
+					<title><![CDATA[Akwee Wo! [Caught Up]]]></title>
+					<artist><![CDATA[Itz Tiffany]]></artist>
+					<duration>03:26</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Akwee Wo! [Caught Up] -  Itz Tiffany.mp3</song>
+				</item>
+				<item id="1310">
+					<title><![CDATA[Antenna]]></title>
+					<artist><![CDATA[Fuse ODG feat. Wyclef Jean]]></artist>
+					<duration>04:09</duration>
+					<buy url = "http://www.paypal.com"></buy>
+					<song>content/songs/Azonto_Various_Artists/Antenna - Fuse ODG FT Wyclef Jean.mp3</song>
+				</item>								
+			</tracks>
+		</album>	
+	</albums>	
+</mp3gallery>

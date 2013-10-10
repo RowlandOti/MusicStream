@@ -316,7 +316,7 @@
 <div style="font-weight:bold;color:#707EBC;font-size:14px;">
             <a href="faq.html" rel="#overlay" style="text-decoration:none"">Feedback</a><label style="margin-right:10px;color:#707EBC;">|</label>
             <a href="faq.html" rel="#overlay" style="text-decoration:none">FAQ</a><label style="margin-right:10px;color:#707EBC;">|</label>
-            <a href="https://www.facebook.com/pages/Stats-Mtaani/395643417150270"  target="_blank" style="margin-right:10px;">Stats Mtaani Apps</a><label style="margin-right:10px;color:#707EBC;">|</label>
+            <a href="https://www.facebook.com/pages/Stats-Mtaani/395643417150270"  target="_blank" style="margin-right:10px;">Stats Mtaani Apps</a><label style="margin-right:10px;color:#707EBC;">|</label></b>
             <a href="https://twitter.com/RowlandBiznez" class="twitter-follow-button" data-show-count="true" data-lang="en" style="margin-right:10px;">Follow @RowlandBiznez</a><label style="margin-right:10px;color:#707EBC;">
       </div>
 <div style='font-size:11px;'>
